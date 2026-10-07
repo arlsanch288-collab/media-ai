@@ -1,0 +1,17 @@
+{
+  "scripts": {
+    "start": "node server.js",
+    "dev": "npx @tailwindcss/cli -i tw.css -o style.css --watch"
+  },
+  "dependencies": {
+    "@distube/ytdl-core": "^4.16.12",
+    "@tailwindcss/cli": "^4.3.3",
+    "cors": "^2.8.6",
+    "express": "^5.2.1",
+    "multer": "^2.4.0",
+    "sharp": "^0.35.5"
+  },
+  "devDependencies": {
+    "tailwindcss": "^4.3.3"
+  }
+}
